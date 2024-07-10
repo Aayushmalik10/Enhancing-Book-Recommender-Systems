@@ -1,0 +1,9 @@
+Make sure you run the anaconda python interprater on your terminal.
+Then create a virtual environment using the command below
+> conda create --prefix ./env python==3.12 -y
+
+After the environment has been set, install the requirements for the application to run using the command below
+> pip install -r requirements.txt
+
+After the installation is done, you can run the application on the localhost using
+> streamlit run app.py
